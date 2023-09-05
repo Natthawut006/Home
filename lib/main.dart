@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+import 'Home.dart';
 import 'page.dart';
 import 'theme.dart';
 
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: scitTheme(
       ),
-      home:  page(),
+      home:  newpage1(),
     );
   }
   
